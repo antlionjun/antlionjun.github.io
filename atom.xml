@@ -2,7 +2,7 @@
 <feed xmlns="https://www.w3.org/2005/Atom">
   <title>蚂蚁小俊</title>
   
-  <subtitle>蚂蚁小俊，让代码与生活，伴你我成长！</subtitle>
+  <subtitle>让代码与生活，伴你我成长！</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://antlionjun.github.io/"/>
@@ -10,7 +10,7 @@
   <id>https://antlionjun.github.io/</id>
   
   <author>
-    <name>Antlion</name>
+    <name>Antlionjun</name>
     
   </author>
   
