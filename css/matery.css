@@ -244,7 +244,7 @@ mark {
 }
 
 .container .row {
-    margin-bottom: 0;
+    margin-bottom: 75px;
 }
 
 .bg-color {
@@ -587,6 +587,7 @@ header .go-back i {
     font-size: 1.25rem;
     line-height: 1.4em;
     color: #eee;
+    margin-top: 65px;
 }
 
 .bg-cover .post-title {
