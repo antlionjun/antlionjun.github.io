@@ -137,15 +137,6 @@
     <ul class="sub-nav menus_item_child ">
       
       <li>
-        <a href="/games">
-          
-          <i class="fas fa-music" style="margin-top: -20px; zoom: 0.6;"></i>
-          
-          <span>游戏</span>
-        </a>
-      </li>
-      
-      <li>
         <a href="/movies">
           
           <i class="fas fa-film" style="margin-top: -20px; zoom: 0.6;"></i>
@@ -160,15 +151,6 @@
           <i class="fas fa-book" style="margin-top: -20px; zoom: 0.6;"></i>
           
           <span>书籍</span>
-        </a>
-      </li>
-      
-      <li>
-        <a href="/galleries">
-          
-          <i class="fas fa-image" style="margin-top: -20px; zoom: 0.6;"></i>
-          
-          <span>相册</span>
         </a>
       </li>
       
@@ -291,16 +273,6 @@
               
                 <li>   
 				
-                  <a href="/games " style="margin-left:75px";>
-				  
-				   <i class="fa fas fa-music" style="position: absolute;left:50px" ></i>
-			      
-		          <span>游戏</span>
-                  </a>
-                </li>
-              
-                <li>   
-				
                   <a href="/movies " style="margin-left:75px";>
 				  
 				   <i class="fa fas fa-film" style="position: absolute;left:50px" ></i>
@@ -316,16 +288,6 @@
 				   <i class="fa fas fa-book" style="position: absolute;left:50px" ></i>
 			      
 		          <span>书籍</span>
-                  </a>
-                </li>
-              
-                <li>   
-				
-                  <a href="/galleries " style="margin-left:75px";>
-				  
-				   <i class="fa fas fa-image" style="position: absolute;left:50px" ></i>
-			      
-		          <span>相册</span>
                   </a>
                 </li>
                
@@ -618,41 +580,6 @@ $(function () {
 </script>
                     
 
-                    
-                        <link rel="stylesheet" href="/libs/dplayer/DPlayer.min.css">
-<div class="video-player">
-    
-    <div class="title center-align">
-        <i class="fas fa-video-camera"></i>&nbsp;&nbsp;精彩视频
-    </div>
-    
-    <div class="row">
-        <div class="col l8 offset-l2 m10 offset-m1 s12">
-            <div id="dplayer" class="dplayer-video"
-                     style="height: 400px;"></div>
-        </div>
-    </div>
-</div>
-
-<script src="/libs/dplayer/DPlayer.min.js"></script>
-<script>
-    $(function () {
-        new DPlayer({
-            container: document.getElementById('dplayer'),
-            autoplay: 'false' === 'true',
-            theme: '#42b983',
-            loop: 'false' === 'true',
-            lang: 'zh-CN' === 'zh-CN' ? 'zh-cn' : 'en',
-            preload: 'auto',
-            volume: Number('0.7'),
-            video: {
-                url: 'https://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4',
-                pic: '',
-                thumbnails: ''
-            }
-        });
-    });
-</script>
                     
 
                     <div id="recommend-sections" class="recommend">
